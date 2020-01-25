@@ -21,10 +21,12 @@ This repository provides the following file tree layout:
 ```
 home/
 ├── .emacs.d
-│   ├── base.el
-│   ├── init.el
-│   └── themes
-│       └── wintermute-theme.el
+│   ├── config
+│   │   ├── base.el
+│   │   └── org.el
+│   ├── init.el
+│   └── themes
+│       └── wintermute-theme.el
 └── .vimrc
 ```
 
