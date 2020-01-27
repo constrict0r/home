@@ -14,6 +14,13 @@
 
 MIT. See the [LICENSE](https://gitlab.com/constrict0r/home/raw/master/LICENSE) file for more details.
 
+## Usage
+
+```
+ansible localhost -m include_role -a name=constrict0r.userconfig -K \
+    -e "{user_skeleton: 'https://gitlab.com/constrict0r/home'}"
+```
+
 ## Layout
 
 This repository provides the following file tree layout:
