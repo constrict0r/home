@@ -46,7 +46,7 @@ home/
 
 [![constrict0r](https://gitlab.com/constrict0r/img/raw/master/author.png)](https://gitlab.com/constrict0r)
 
-The travelling vaudeville villain.
+The Travelling Vaudeville Villain.
 
 Enjoy!!
 
