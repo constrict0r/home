@@ -4,11 +4,11 @@
 
 [Skeleton repository](http://www.linfo.org/etc_skel.html) for standard user home directory layout.
 
-![home](https://gitlab.com/constrict0r/img/raw/master/home/home.png)
+![home](https://gitlab.com/constrict0r/img/raw/master/home/avatar.png)
 
-[Part of:](https://gitlab.com/explore/projects?tag=doombots)
+[Part of:](https://gitlab.com/explore/projects?tag=doombot)
 
-![doombots](https://gitlab.com/constrict0r/img/raw/master/doombots.png)
+![doombots](https://gitlab.com/constrict0r/img/raw/master/doombot.png)
 
 ## License
 

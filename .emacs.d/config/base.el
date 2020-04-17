@@ -2,7 +2,7 @@
 (setq-default indent-tabs-mode nil)
 
 ;; Set custom themes path.
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/") 
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 
 ;; Set custom dark theme.
 (add-to-list 'custom-theme-load-path "wintermute-theme.el")
@@ -12,7 +12,7 @@
 (setq visible-bell t)
 
 ;; Set cursor color to white to match dark theme.
-(set-cursor-color "#ffffff") 
+(set-cursor-color "#ffffff")
 
 ;; Enable line numbers.
 (global-linum-mode 1)
@@ -45,6 +45,15 @@
 (global-set-key "\M-/" 'hippie-expand)
 
 ;; Kill processes opened by Emacs on exit: debuggers, tests suites, webserver and others.
-(add-hook 'comint-exec-hook 
+(add-hook 'comint-exec-hook
   (lambda () (set-process-query-on-exit-flag (get-buffer-process (current-buffer)) nil))
 )
+
+;; Install required packages if not installed.
+(mapc #'(lambda (package)
+  (unless (package-installed-p package)
+    (package-install package)))
+      '(yaml-mode)
+)
+
+(require 'yaml-mode)

@@ -1,4 +1,4 @@
-;;; wintermute-theme.el --- Theme 
+;;; wintermute-theme.el --- Theme
 
 ;; Copyright (C) 2016 , Bleu-Box
 
